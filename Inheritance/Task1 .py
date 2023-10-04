@@ -30,4 +30,6 @@ class hrManager(Employee):
 emp1 = Employee()
 emp2 = hrManager()
 emp1.addEmployee()
+
+
     
