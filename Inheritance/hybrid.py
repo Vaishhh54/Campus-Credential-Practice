@@ -12,7 +12,7 @@ class C(A):
         print("This is Class C")
 class D(B,C):
     def show(self):
-        print(this class D)
+        print("this class D")
 s =A()
 S1 = B()
 s2 =C()
