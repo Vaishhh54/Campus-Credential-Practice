@@ -4,11 +4,18 @@ class A:
         self.cash
     def properties():
         print("This is parents class method")
-class B:
+class B(A):
     def  showB(self):
         print("This is child class method")
+class C(A):
+    def show(self):
+        print("This is Class C")
+class D(B,C):
+    def show(self):
+        print(this class D)
+s =A()
+S1 = B()
+s2 =C()
+s3 = D()
 
-s1 = A()
-s2 = B()
-s2.showB()
-s2.properties()
+
