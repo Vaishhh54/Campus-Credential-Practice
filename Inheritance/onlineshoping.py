@@ -12,7 +12,7 @@ class Product:
     def display_details(self):
         pass
 class Electronics(Product):
-    def __init__(self,brand,warranty):
+    def __init__(self):
         self.brand = ""
         self.warranty =""
         self.name = input("Enter Name of product: ")
@@ -40,6 +40,6 @@ class Books(Product):
     def display_details(self):
         pass
 
-s = Electronics("HP","2 yr")
+s = Electronics()
 s.get_price()
 s.display_details()
