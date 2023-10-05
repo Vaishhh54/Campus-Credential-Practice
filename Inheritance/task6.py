@@ -15,3 +15,6 @@ class ProgrammingCourse(Course):
         self.Programming_language =Programming_language
         self.instructor = instructor
         pass
+    
+class MathCourse(Course):
+    def 
